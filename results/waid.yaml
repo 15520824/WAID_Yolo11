@@ -1,0 +1,13 @@
+path: /WAID
+train: images/train
+val: images/valid
+test: images/test
+
+# Đọc classes.txt và tự sinh tên lớp
+names:
+  0: sheep
+  1: cattle
+  2: seal
+  3: camelus
+  4: kiang
+  5: zebra
