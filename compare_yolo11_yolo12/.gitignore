@@ -3,3 +3,4 @@ results/**
 
 # Allow only results.csv inside each experiment folder
 !results/*/results.csv
+
