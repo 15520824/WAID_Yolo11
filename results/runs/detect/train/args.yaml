@@ -2,15 +2,15 @@ task: detect
 mode: train
 model: yolo11s.pt
 data: waid.yaml
-epochs: 100
+epochs: 120
 time: null
-patience: 100
+patience: 30
 batch: 0.9
 imgsz: 640
 save: true
 save_period: -1
 cache: disk
-device: "0"
+device: '0'
 workers: 2
 project: null
 name: train
@@ -103,4 +103,4 @@ auto_augment: randaugment
 erasing: 0.4
 cfg: null
 tracker: botsort.yaml
-save_dir: /results/runs/detect/train
+save_dir: /kaggle/working/runs/detect/train

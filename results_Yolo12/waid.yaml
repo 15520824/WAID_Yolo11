@@ -1,5 +1,4 @@
-
-path: /kaggle/input/wildlife-aerial-images-from-drone
+path: E:/WAID_Yolo11/WAID
 train: images/train
 val: images/valid
 test: images/test
